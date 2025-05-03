@@ -1,0 +1,136 @@
+.login {
+    height: 100vh;
+    background-image: linear-gradient(#0000007e, #0000007e), url(/src/assets/background_banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 400px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 4px;
+    padding: 60px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 28px;
+    color: white;
+    text-align: center;
+}
+
+.login-form input {
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: white;
+    margin: 12px 0;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    padding: 0 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.login-from input::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.login-form button {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    background: #e50914;
+    color: white;
+    border: 0;
+    outline: 0;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background: #f40612;
+}
+
+.form-help {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+    font-size: 13px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+}
+
+.remember input {
+    width: 18px;
+    height: 18px;
+}
+
+.form-switch{
+    margin: 40px;
+    color:gray ;
+}
+
+.form-switch span{
+    margin-left:6px ;
+    color:#fff ;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.login-spinner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.login-spinner img{
+    width: 60px;
+    
+
+}
+
+@media (max-width: 500px) {
+    .login {
+        padding: 15px 5%;
+    }
+
+    .login-from {
+        padding: 20px;
+        margin-top : 30px;
+        
+    }
+
+    
+}
