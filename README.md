@@ -7,7 +7,7 @@ This is a **Netflix Clone Web Application** built using **HTML, CSS, JavaScript,
 
 ## 📸 Demo
 
-> 🔗 [Live Demo Link](https://your-live-link.com)  
+> 🔗 [Live Demo Link]( https://chandrakant008.github.io/ReactFlix/)  
 
 
 ---
